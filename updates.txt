@@ -3,3 +3,4 @@ aclarar color header
 canviar estilo botones para que se bea mejor
 canvar fuente de letra
 añadir elementos a la barra derecha
+hacer responsif
