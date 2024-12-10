@@ -6,6 +6,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>El blog de informatíca</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/menu-de-nabegacion.css'>
         <link rel="icon" href="img/x-icon-recortado.png" type="img/.png">
         <link rel="shortcut icon" href="img/x-icon-recortado.png" type="img/.png">
     </head>
@@ -13,23 +14,54 @@
     <body>
         
 		<!-- Header con menú -->
-		<header>
-		    <div class="menu-toggle" id="menuToggle">&#9776;</div> <!-- Icono hamburguesa -->
-		    <nav id="navMenu" class="nav-menu">
-		        <ul>
-		            <li><a href="#">Inicio</a></li>
-		            <li><a href="#">Servicios</a></li>
-		            <li><a href="#">Acerca de</a></li>
-		            <li><a href="#">Contacto</a></li>
-		        </ul>
-		    </nav>
-		</header>
+	    <header class="header">
+	    		<!--<h1>Mi Blog Clásico</h1>
+	        	<p>Un rincón para los amantes del estilo vintage</p>-->
+	        <div class="nav-buttons">
+	        	<span class="header-text"><b>El blog de la informatica</b></span>
+	            <a href="#inicio">Inicio</a>
+	            <a href="#articulos">Artículos</a>
+	            <!--<a href="#acerca">Blog</a>-->
+	            <a href="#acerca">Descargas</a>
+	            <a href="#contacto">Contacto</a>
+	            <a href="#contacto"><img src="img/logo-github.png" alt="" /></a>
+	        </div>
+	    </header>
 
-		<script src="script/script.js"></script>
+	    <div class="container">
+	        <nav class="sidebar">
+	            <ul>
+	                <li><a href="#seccion1">Sección 1</a></li>
+	                <li><a href="#seccion2">Sección 2</a></li>
+	                <li><a href="#seccion3">Sección 3</a></li>
+	                <li><a href="#seccion4">Sección 4</a></li>
+	            </ul>
+	        </nav>
+	        <main class="content">
+	            <section id="seccion1">
+	                <h2>Sección 1</h2>
+	                <p>Contenido de la sección 1.</p>
+	            </section>
+	            <section id="seccion2">
+	                <h2>Sección 2</h2>
+	                <p>Contenido de la sección 2.</p>
+	            </section>
+	            <section id="seccion3">
+	                <h2>Sección 3</h2>
+	                <p>Contenido de la sección 3.</p>
+	            </section>
+	            <section id="seccion4">
+	                <h2>Sección 4</h2>
+	                <p>Contenido de la sección 4.</p>
+	            </section>
+	        </main>
+	    </div>
+
         
-        <footer> <!-- pie de web -->
+        <footer style="text-align: center; background-color: black; color: white;"> <!-- pie de web -->
             &copy; 2024 El blog de informatica. Todos los derechos  GNU GENERAL PUBLIC LICENSE con consentimiento.  created by Rccrawler
         </footer>
+
 
     </body>
 </html>
