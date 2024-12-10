@@ -80,6 +80,14 @@
     border-radius: 5px;
     background-color: #f9f9f9;
 }
+
+.nav-buttons a img {
+    width: 20px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción */
+    vertical-align: middle; /* Centra la imagen verticalmente dentro del botón */
+}
+
+
 .nav-buttons a:hover {
     background-color: #e0e0e0;
 }
@@ -89,4 +97,31 @@
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.left {
+    order: 1;
+}
+
+.sidebar.right {
+    order: 3; /* Coloca este contenedor a la derecha */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Cambia la sombra para ajustarse */
+}
+
+.content {
+    flex: 1;
+    padding: 1rem;
+    order: 2;
 }
