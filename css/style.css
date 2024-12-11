@@ -1,1 +1,8 @@
-stilos
+@font-face {
+  font-family: 'AsapMedium';
+  src: url('../fonts/Asap/ttf/Asap-Medium.ttf') format('truetype');
+}
+
+* {
+  font-family: 'AsapMedium', sans-serif;
+}

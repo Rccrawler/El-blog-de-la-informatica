@@ -1,0 +1,165 @@
+otros estilos:
+
+
+.nav-buttons a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 15px;
+    font-size: 1em;
+    font-family: Arial, sans-serif; /* Fuente común en la época */
+    color: #000;
+    background-color: #dcdcdc; /* Color gris claro */
+    border: 3px solid #808080; /* Borde gris oscuro */
+    border-right-color: #fff; /* Lado derecho blanco para efecto 3D */
+    border-bottom-color: #fff; /* Lado inferior blanco para efecto 3D */
+    border-radius: 2px; /* Ligero redondeado */
+    cursor: pointer;
+}
+
+.nav-buttons a:hover {
+    background-color: #c0c0c0; /* Gris más oscuro al pasar el ratón */
+}
+
+
+
+.nav-buttons a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.nav-buttons a:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+/*                     Estilos originales
+.header {
+    background-color: #14826f;
+    text-align: center;
+    background-color: #14826f;/*#117362*/
+    color: white;
+    padding: 1rem;
+    border-bottom: 3px solid #000;/*grosor linea del header*/
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 0;
+    font-style: italic;
+}
+
+.header-text {
+    color: black;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
+
+.content {
+    flex: 1;
+    padding: 1rem;
+    order: 2;
+}
+
+.content section {
+    margin-bottom: 2rem;
+}
+
+.nav-buttons {
+    margin-top: 15px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 25px;
+    font-size: 1em;
+    color: #000000;
+    border: 1px solid #000;
+    background-color: #9ab5b0; /* Un verde más moderno */
+    border-radius: 23px; /* Botones redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+    -webkit-font-smoothing: antialiased; /* Mejora claridad en navegadores basados en WebKit */
+    -moz-osx-font-smoothing: grayscale; /* Mejora claridad en Firefox */
+}
+
+.nav-buttons a:hover {
+    background-color: #868f8d; /* Color más oscuro al pasar el ratón */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    transform: translateY(-1px); /* Efecto de "levantar" */
+}
+
+.nav-buttons a img {
+    width: 20px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción */
+    vertical-align: middle; /* Centra la imagen verticalmente dentro del botón */
+}
+
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar.left {
+    order: 1;
+}
+
+.sidebar.right {
+    order: 3; /* Coloca este contenedor a la derecha */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Cambia la sombra para ajustarse */
+}
+*/
