@@ -59,6 +59,8 @@
     flex: 1;
     padding: 1rem;
     order: 2;
+    height: 85vh; /* Asigna una altura fija o máxima */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
 }
 
 .content section {
