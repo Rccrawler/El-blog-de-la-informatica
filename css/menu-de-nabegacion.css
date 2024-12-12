@@ -61,6 +61,10 @@
     order: 2;
 }
 
+.content-scroll {
+    
+}
+
 .content section {
     margin-bottom: 2rem;
 }
@@ -116,7 +120,7 @@
 
 #searchInput {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin-bottom: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
