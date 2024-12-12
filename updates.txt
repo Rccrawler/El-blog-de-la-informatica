@@ -1,6 +1,4 @@
 mejorar titular
-aclarar color header
-canviar estilo botones para que se bea mejor
-canvar fuente de letra
-añadir elementos a la barra derecha
+revisar fuente de letra
+añadir elementos a la barra izquierda
 hacer responsif
