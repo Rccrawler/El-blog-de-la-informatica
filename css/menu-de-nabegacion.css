@@ -57,9 +57,9 @@
 
 .content {
     flex: 1;
-    padding: 1rem;
+    padding: 9rem; /*problema las letras tanvien bajan aparte de apartarse de abajo*/
     order: 2;
-    height: 85vh; /* Asigna una altura fija o máxima */
+    height: 57.5vh; /* Asigna una altura fija o máxima */
     overflow-y: auto; /* Agrega una barra de desplazamiento vertical */
 }
 
