@@ -1,4 +1,4 @@
-# El-blog-de-la-inform-tica
+# El-blog-de-la-informatica
 Sitio dedicado a noticias de informática y programación, con consejos prácticos y recursos útiles para programadores e informaticos
 
 
