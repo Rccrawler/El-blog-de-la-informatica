@@ -1,0 +1,42 @@
+Lista de terminos css usados:
+
+.header
+.header h1
+.header p
+.header-text
+.container
+.sidebar
+.sidebar ul
+.sidebar ul li
+.sidebar ul li a
+.sidebar ul li a:hover
+.content
+.content section
+.nav-buttons
+.nav-buttons a
+.nav-buttons a:hover
+.nav-buttons a img
+.nav-container
+.sidebar.left
+.sidebar.right
+.abent-apart img
+#searchInput
+#noResults
+.header
+.nav-buttons
+.nav-buttons a
+.container
+.sidebar
+.container
+.sidebar
+.content
+.sidebar.right
+.container
+.sidebar
+.content
+#cookie-baner
+.hidden
+#configurar-cookies-modal
+.modal-content
+.modal-content label
+@font-face
