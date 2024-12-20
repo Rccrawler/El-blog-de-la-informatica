@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>El blog de informatíca apps</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/apps.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/menu-de-nabegacion.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel="icon" href="img/world-web-b-recortado.png" type="img/.png">
+        <link rel="shortcut icon" href="img/world-web-b-recortado.png" type="img/.png">
+    </head>
+
+    <body>
+		<!-- Header con menú -->
+	    <header class="header">
+	        <div class="nav-buttons">
+	        	<span class="ebent-apart"><img src="img\imajenes-ebento\arbol-animado.gif"></span><!-- Apartado para poner las imajenes en los ebentos -->
+	        	<span class="header-text"><b>El blog de la informatíca</b></span>
+	            <a href="index.html">Inicio</a>
+	            <a href="construcion.html">apps</a>
+	            <!--<a href="#acerca">Blog</a>-->
+	            <a href="construcion.html">Descargas</a>
+	            <a href="construcion.html">Contacto</a>
+	            <a href="terminos.html">Terminos</a><!--Haqui ponder las politica-->
+	            <a href="https://github.com/Rccrawler/El-blog-de-la-informatica"><img src="img/logo-github.png" alt="" /></a>
+	        </div>
+	    </header>
+
+	    <script src="js/buscador-web.js" defer></script><!--Inportar js carrusel aun no disponible-->
+	    <script src="js/cookies.js" defer></script><!--Inportar js carrusel aun no disponible-->
+	    <script src="js/carrusel.js" defer></script><!--Inportar js carrusel aun no disponible-->
+
+	    <div class="container">
+
+			<div id="cookie-banner">
+			    <p>Usamos cookies para mejorar tu experiencia. 
+			        <a href="terminos.html" style="color: lightblue;">Saber más</a>.
+			    </p>
+			    <button onclick="aceptarCookies()">Aceptar</button>
+			    <button onclick="abrirConfiguracion()">Configurar</button>
+			</div>
+
+			<div id="configurar-cookies-modal" class="hidden">
+			    <div class="modal-content">
+			        <h2>Configurar cookies</h2>
+			        <form id="configurar-cookies-form">
+			            <label>
+			                <input type="checkbox" name="cookies-necesarias" checked disabled>
+			                Cookies necesarias (siempre activas)
+			            </label>
+			            <label>
+			                <input type="checkbox" name="cookies-analiticas">
+			                Cookies analíticas
+			            </label>
+			            <label>
+			                <input type="checkbox" name="cookies-publicidad">
+			                Cookies de publicidad
+			            </label>
+			        </form>
+			        <button onclick="guardarConfiguracion()">Guardar</button>
+			        <button onclick="cerrarConfiguracion()">Cancelar</button>
+			    </div>
+			</div>
+
+	        <nav class="sidebar">
+	            <ul>
+	                <li><input type="text" id="searchInput" placeholder="Buscar en el blog...">
+					<button onclick="searchBlog()">Buscar</button></li><!--haqui buscador-->
+            		<li><a href="#extra2"></a></li><!--haqui publicidad de la web-->
+            		<li><a href="#extra3"></a></li><!--haqui imajenes-->
+            		<li><a href="#extra4"></a></li><!--haqui publicidad-->
+	            </ul>
+	        </nav>
+
+	        <nav class="sidebar right"><!--poner las seciones-->
+        		<ul>
+        			<li><a><h2>apps</h2></a></li>
+        			<!--
+	                <li><a href="#seccion2">Sección 2</a></li>
+	                <li><a href="#seccion3">Sección 3</a></li>
+	                <li><a href="#seccion4">Sección 4</a></li>
+	            	-->
+        		</ul>
+    		</nav>
+
+			<main class="content">
+
+			    <section id="cuadros-clicables">
+			        <div class="cuadro" onclick="location.href='pagina1.html'">
+			            <h3>Título 1</h3>
+			            <p>Texto descriptivo del cuadro 1.</p>
+			        </div>
+			        <!--
+			        <div class="cuadro" onclick="location.href='pagina2.html'">
+			            <h3>Título 2</h3>
+			            <p>Texto descriptivo del cuadro 2.</p>
+			        </div>
+			        <div class="cuadro" onclick="location.href='pagina3.html'">
+			            <h3>Título 3</h3>
+			            <p>Texto descriptivo del cuadro 3.</p>
+			        </div>
+			    	-->
+			    </section>
+			</main>
+	        
+	    </div>
+
+        <footer style="text-align: center; background-color: black; color: white;"> <!-- pie de web -->
+            <em>&copy; 2024 El blog de informatíca. Todos los derechos  GNU GENERAL PUBLIC LICENSE con consentimiento.  created by Rccrawler<em>
+            <!--
+            <table border="1" width="100%">
+        		<tr>
+            		<td><a href="terminos.html">ver los terminos</a></td>
+            		<td><p>ubicacion españa, <br> creador Rccrawler</p></td>
+            		<td><a href="apps.html">aplicaciones</a></td>
+        		</tr>
+    		</table>
+    		-->
+        </footer>
+
+    </body>
+</html>

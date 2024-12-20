@@ -1,0 +1,34 @@
+#cuadros-clicables {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Se adapta en pantallas pequeñas */
+}
+
+.cuadro {
+    width: 250px;
+    height: 150px;
+    border: 2px solid #14826f;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cuadro:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cuadro h3 {
+    margin: 0 0 10px;
+    color: #14826f;
+    font-size: 18px;
+}
+
+.cuadro p {
+    color: #333;
+    font-size: 14px;
+}
