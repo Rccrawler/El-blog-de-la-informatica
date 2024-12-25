@@ -126,6 +126,14 @@
     margin: 0 10px; /* Asegura un margen uniforme entre la imagen y los botones */
 }
 
+.sidebar ul li img {
+    width: 100%; /* Ajusta el tamaño de la imagen al ancho del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    margin-bottom: 10px; /* Espaciado entre imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra */
+}
+
 #searchInput {
     width: 100%;
     padding: 0.3rem;
@@ -140,6 +148,7 @@
     text-align: center;
     margin-top: 1rem;
 }
+
 
 /* Media queries para diseño responsivo */
 @media (max-width: 768px) {

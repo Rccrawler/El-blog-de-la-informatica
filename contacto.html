@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>El blog de informatíca contacto</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/menu-de-nabegacion.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel="icon" href="img/world-web-b-recortado.png" type="img/.png">
+        <link rel="shortcut icon" href="img/world-web-b-recortado.png" type="img/.png">
+    </head>
+
+    <body>
+		<!-- Header con menú -->
+	    <header class="header">
+	        <div class="nav-buttons">
+	        	<span class="ebent-apart"><img src="img\imajenes-ebento\arbol-animado.gif"></span><!-- Apartado para poner las imajenes en los ebentos -->
+	        	<span class="header-text"><b>El blog de la informatíca</b></span>
+	            <a href="index.html">Inicio</a>
+	            <a href="apps.html">apps</a>
+	            <!--<a href="#acerca">Blog</a>-->
+	            <a href="download.html">Descargas</a>
+	            <a href="contacto.html">Contacto</a>
+	            <a href="terminos.html">Terminos</a><!--Haqui ponder las politica-->
+	            <a href="https://github.com/Rccrawler/El-blog-de-la-informatica"><img src="img/logo-github.png" alt="" /></a>
+	        </div>
+	    </header>
+
+	    <script src="js/buscador-web.js" defer></script><!--Inportar js carrusel aun no disponible-->
+	    <script src="js/cookies.js" defer></script><!--Inportar js carrusel aun no disponible-->
+	    <script src="js/carrusel.js" defer></script><!--Inportar js carrusel aun no disponible-->
+
+	    <div class="container">
+
+			<div id="cookie-banner">
+			    <p>Usamos cookies para mejorar tu experiencia. 
+			        <a href="terminos.html" style="color: lightblue;">Saber más</a>.
+			    </p>
+			    <button onclick="aceptarCookies()">Aceptar</button>
+			    <button onclick="abrirConfiguracion()">Configurar</button>
+			</div>
+
+			<div id="configurar-cookies-modal" class="hidden">
+			    <div class="modal-content">
+			        <h2>Configurar cookies</h2>
+			        <form id="configurar-cookies-form">
+			            <label>
+			                <input type="checkbox" name="cookies-necesarias" checked disabled>
+			                Cookies necesarias (siempre activas)
+			            </label>
+			            <label>
+			                <input type="checkbox" name="cookies-analiticas">
+			                Cookies analíticas
+			            </label>
+			            <label>
+			                <input type="checkbox" name="cookies-publicidad">
+			                Cookies de publicidad
+			            </label>
+			        </form>
+			        <button onclick="guardarConfiguracion()">Guardar</button>
+			        <button onclick="cerrarConfiguracion()">Cancelar</button>
+			    </div>
+			</div>
+
+	        <nav class="sidebar">
+	            <ul>
+	                <!--<li><input type="text" id="searchInput" placeholder="Buscar en el blog...">
+					<button onclick="searchBlog()">Buscar</button></li>-->
+            		<li><a href="#extra2"></a></li><!--haqui publicidad de la web-->
+            		<li><a href="#extra3"></a></li><!--haqui imajenes-->
+            		<li><a href="#extra4"></a></li><!--haqui publicidad-->
+	            </ul>
+	        </nav>
+
+	        <nav class="sidebar right"><!--poner las seciones-->
+        		<ul>
+        			<!--
+	                <li><a href="#seccion2">Sección 2</a></li>
+	                <li><a href="#seccion3">Sección 3</a></li>
+	                <li><a href="#seccion4">Sección 4</a></li>
+	            	-->
+        		</ul>
+    		</nav>
+
+	        <main class="content">
+	            <section id="seccion1">
+	                <h1>Informacion de contacto</h1>
+	                <p>pajina regulada por las leyes de europa
+	                se puede contactar atrabes de github al usuario 
+					<a href="https://github.com/Rccrawler/El-blog-de-la-informatica">Rccrawler</a></p>
+					<br>
+					<p>Esta web aún se encuentra en una etapa de desarrollo, por lo que puede haber errores o apartados incompletos</p>
+	            </section>
+	        </main>
+	        
+	    </div>
+
+        <footer style="text-align: center; background-color: black; color: white;"> <!-- pie de web -->
+            <em>&copy; 2024 El blog de informatíca. GNU GENERAL PUBLIC LICENSE con consentimiento.  created by Rccrawler 01/12/2024<em>
+            <!--
+            <table border="1" width="100%">
+        		<tr>
+            		<td><a href="terminos.html">ver los terminos</a></td>
+            		<td><p>ubicacion españa, <br> creador Rccrawler</p></td>
+            		<td><a href="apps.html">aplicaciones</a></td>
+        		</tr>
+    		</table>
+    		-->
+        </footer>
+
+    </body>
+</html>

@@ -1,7 +1,7 @@
-mejorar titular
-
-revisar fuente de letra
 
 centrar el texto para que sea mas facil de leer pero no usar etiqueta para centrar a lo literal usar margin y pading y cosas similares para centrarlo
 
 añadir elementos a la barra izquierda
+añadir reportajes
+
+crear documento o index oculto para hañadir megoras y opciones

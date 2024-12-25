@@ -1,0 +1,36 @@
+.descarga-item {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    margin-bottom: 10px; /* Espaciado inferior entre la fila y el botón */
+}
+
+.descarga-item img {
+    width: 100px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene las proporciones */
+    margin-right: 15px; /* Espaciado entre la imagen y el texto */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+.descarga-texto {
+    flex: 1; /* Permite que el texto ocupe todo el espacio disponible */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
+.descargar-boton {
+    background-color: #14826f; /* Color del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    margin-top: 10px; /* Espaciado superior para separar del contenido */
+    transition: background-color 0.3s ease; /* Animación para el hover */
+    margin-left: auto
+}
+
+.descargar-boton:hover {
+    background-color: #0e5a4b; /* Color del botón al pasar el cursor */
+}
