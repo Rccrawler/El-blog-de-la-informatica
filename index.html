@@ -26,8 +26,9 @@
 		<!-- Header con menú -->
 	    <header class="header">
 	        <div class="nav-buttons">
-	        	<span class="ebent-apart"><img src="img\imajenes-ebento\arbol-animado.gif"></span><!-- Apartado para poner las imajenes en los ebentos -->
-	        	<span class="header-text"><b>El blog de la informatíca</b></span>
+	        	<!--<span class="ebent-apart"><img src="img\imajenes-ebento\arbol-animado.gif"></span>--><!-- Apartado para poner las imajenes en los ebentos -->
+	        	<span class="ebent-apart"></span><script src="js/eventos.js" defer></script></span><!---Nuebo contendor de ebentos-->
+				<span class="header-text"><b>El blog de la informatíca</b></span>
 	            <a href="index.html">Inicio</a>
 	            <a href="apps.html">apps</a>
 	            <!--<a href="#acerca">Blog</a>-->
@@ -76,18 +77,22 @@
 
 	        <nav class="sidebar">
 	            <ul>
-	                <li><input type="text" id="searchInput" placeholder="Buscar en el blog...">
-					<button onclick="searchBlog()">Buscar</button></li><!--haqui buscador-->
+					<li>
+						<input type="text" id="searchInput" placeholder="Buscar en el blog...">
+						<button onclick="searchBlog()">Buscar</button>
+					</li><!--haqui buscador-->
             		<li><a href="#extra2"></a></li><!--haqui publicidad de la web-->
             		<li><a href="#extra3"></a></li><!--haqui imajenes-->
             		<li><a href="#extra4"></a></li><!--haqui publicidad-->
+					<li><p id="noResults" style="display: none; color: red;">No se encontraron resultados.</p></li>
 	            </ul>
 	        </nav>
 
 	        <nav class="sidebar right"><!--poner las seciones-->
         		<ul>
         			<li><a><h2>Secciónes</h2></a></li>
-        			<!--
+        			<li><a href="#seccion1">El primer artículo</a></li>
+					<!--
 	                <li><a href="#seccion2">Sección 2</a></li>
 	                <li><a href="#seccion3">Sección 3</a></li>
 	                <li><a href="#seccion4">Sección 4</a></li>
@@ -96,6 +101,17 @@
     		</nav>
 
 	        <main class="content">
+				<section id="seccion1">
+					<h5 style="text-align: right;">31/01/2023 22:28 Rccrawler</h5>
+	                <h2>En mi primer artículo del blog me gustaría hablar de qué trata el blog de la informática</h2>
+	                <h3>El blog de la informatíca</h3>
+					<p>Sitio dedicado a noticias de informática y programación, con consejos prácticos y recursos útiles para programadores e informaticos</p>
+					<br>
+					<p>Bienvenidos a El blog de la informatica 🖥️💻 Este es un sitio dedicado a ofrecer noticias de informática y programación, brindando una fuente confiable de información para mantenerse actualizado con las últimas tendencias tecnológicas. Aquí encontrarás contenido enfocado en consejos prácticos, tutoriales, y recursos útiles para desarrolladores, programadores y todos aquellos interesados en el fascinante mundo de la tecnología.</p>
+					<br>
+					<p>🚀 ¿Qué encontrarás aquí? Noticias de Tecnología: Mantente al día con las novedades más importantes en el mundo de la informática, gadgets, inteligencia artificial y más. Artículos y Guías Prácticas: Aprende nuevas habilidades con nuestros tutoriales detallados y consejos para mejorar tu productividad como programador. Recursos para Programadores: Desde bibliotecas de código hasta herramientas útiles, aquí podrás encontrar los mejores recursos para tus proyectos. Opiniones sobre Tecnología: Análisis, reseñas y perspectivas sobre los últimos avances en software y hardware. Soluciones a Problemas Comunes: Resolvemos los problemas que los programadores enfrentan a diario con soluciones simples y efectivas. 📚 Recursos Recomendados Documentación de Lenguajes de Programación: Tutoriales y enlaces a documentación oficial de los lenguajes más populares como Python, JavaScript, Java, C++, y más. Herramientas de Desarrollo: Recomendaciones sobre IDEs, editores de código, frameworks y librerías. Comunidades y Foros: Enlaces a las mejores plataformas donde puedes aprender, compartir conocimientos y resolver dudas (Stack Overflow, GitHub, etc.). 🔥 ¿Por qué seguirnos? Actualización constante: Publicamos contenido nuevo y relevante cada semana. Contenido accesible y de calidad: Diseñado tanto para principiantes como para expertos. Comunidad activa: Comparte tus experiencias y resuelve tus dudas con otros entusiastas de la tecnología.</p>
+	            </section>
+				<!--
 	            <section id="seccion1">
 	                <h2>Sección 1</h2>
 	                <p>Es un hecho.</p>
@@ -107,7 +123,7 @@
 	            <section id="seccion3">
 	                <h2>Sección 3</h2>
 	                <p>Es un hecho.</p>
-	            </section>
+	            </section>-->
 	        </main>
 	        
 	    </div>

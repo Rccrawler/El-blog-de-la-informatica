@@ -6,3 +6,10 @@
 * {
   font-family: 'AsapMedium', sans-serif;
 }
+
+.sidebar.right a.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px;
+}

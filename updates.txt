@@ -5,3 +5,5 @@ añadir elementos a la barra izquierda
 añadir reportajes
 
 crear documento o index oculto para hañadir megoras y opciones
+
+hañadir que si en el buscador buscas una secion luego al clicar a la secion tesalga el contenido y no haya que reiniciar la web
