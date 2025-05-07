@@ -1,4 +1,4 @@
-// Comprobar si el usuario ya aceptó
+// Comprobar si el usuario ya  aceptó
 document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('cookiesAceptadas') === 'true') {
         document.getElementById('cookie-banner').classList.add('hidden');
